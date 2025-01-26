@@ -10,7 +10,6 @@ import (
 )
 
 type GoApp struct {
-	cfg    config.Config
 	logger *logging.Logger
 	client *http.Client
 }
